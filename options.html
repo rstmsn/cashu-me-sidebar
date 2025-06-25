@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Options</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Inter, sans-serif;
+            margin: 20px;
+            background-color: black;
+            color: #ededed;
+        }
+        label {
+            display: block;
+            margin-bottom: 24px;
+            color: #b3b3b3;
+            font-size: 14px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 20px;
+            color: #999999;
+            border: 1px solid #999999;
+            border-radius: 20px;
+            line-height: 28px;
+            background-color: black;
+            font-size: 14px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #ededed;
+            color: #0a0a0a;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            border-radius: 20px;
+            font-size: 1.2rem;
+        }
+        button:hover {
+            background-color: #d9d9d9;
+        }
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 48px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Extension Settings</h1>
+    <div class="settings">
+        <label for="hosted_cashu_url">Hosted Cashu.me URL:</label>
+        <input type="text" id="hosted_cashu_url">
+        <button id="save">Save</button>
+    </div>
+</body>
+<script src="options.js"></script>
+</html>
