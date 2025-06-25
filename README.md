@@ -7,5 +7,6 @@ Streamline your online payment experience with the Cashu.me Firefox extension, w
 
 ## Installation
 
-Either download and install from source, or install directly via Mozilla Firefox Addons: 
+Either download and install from source, or install directly via Mozilla Firefox Addons:
+
 https://addons.mozilla.org/en-GB/firefox/addon/cashu-me-sidebar/
